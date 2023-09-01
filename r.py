@@ -1,6 +1,11 @@
 import random
+start = input ('清決定初始值:')
+end = input ('清決定最終值:')
 
-r = random.randint(1,10)
+start = int(start)
+end = int(end)
+
+r = random.randint(start,end)
 count = 0
 while True:
 	count += 1 #count = count + 1
